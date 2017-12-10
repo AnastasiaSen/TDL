@@ -2,3 +2,5 @@ language: java
 jdk:
   - oraclejdk8
 script: ant build
+deploy:
+  provider: azure_web_apps
